@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang - Dapoer Santai</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="asset/logo2.png" alt="Dapoer Santai Logo" class="logo-image"></a>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Masak santai apa hari ini?">
+            <ul id="results"></ul> <!-- Tempat untuk hasil pencarian -->
+            <span class="search-icon">&#128269;</span>
+            <script src="js/search.js"></script> <!-- Pastikan ini dipanggil -->
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="resep.html">Resep</a></li>
+                <li><a href="tentang.html" class="active">Tentang</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Santai, nikmati rasa!</h2>
+            <p>Dapoer Santai adalah platform kuliner yang dirancang untuk membantu Anda menemukan inspirasi masakan dari Indonesia, 
+                serta memberikan panduan yang lengkap dan mudah diikuti untuk menciptakan hidangan yang lezat. Kami percaya bahwa 
+                memasak adalah seni yang bisa dinikmati semua orang, baik pemula maupun koki berpengalaman.</p>
+        </section>
+
+        <!-- Dashboard Section -->
+        <section class="dashboard-section">
+            <h3>Dashboard Statistik - Dapoer Santai</h3>
+            <!-- Scorecard Section -->
+            <section class="scorecard-section">
+                <div class="scorecard">
+                    <div class="scorecard-item">
+                        <p>Total Resep</p>
+                        <p id="totalRecipes">0</p>
+                    </div>
+                    <div class="scorecard-item">
+                        <p>Total Like</p>
+                        <p id="totalLikes">0</p>
+                    </div>
+                    <div class="scorecard-item">
+                        <p>Total Kunjungan</p>
+                        <p id="totalVisits">0</p>
+                    </div>
+                    <div class="scorecard-item">
+                        <p>Rata-rata Rating</p>
+                        <p id="averageRating">0</p>
+                    </div>
+                </div>
+            </section>
+
+            <label for="recipeFilter">Filter berdasarkan Resep:</label>
+            <select id="recipeFilter">
+                <option value="">Semua Resep</option>
+            </select>
+            <div class="chart-container">
+                <div class="chart-row">
+                    <canvas id="likeAndVisitChart"></canvas>
+                </div>
+                <div class="chart-row">
+                    <canvas id="commentChart"></canvas>
+                    <canvas id="ratingChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team-section">
+            <h3>Tim Kami</h3>
+            <div class="team-container">
+                <div class="tim-row">
+                    <div class="team-member">
+                        <img src="asset/alfonsa.jpg" alt="Alfonsa">
+                        <p>Alfonsa Maria Putri Kinasih</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="asset/septia.jpeg" alt="Septia">
+                        <p>Septia Clara Sinaga</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="asset/tirza.jpg" alt="Tirza">
+                        <p>Tirza Mulyono Ciadi</p>
+                    </div>
+                </div>
+                <div class="tim-row">
+                    <div class="team-member">
+                        <img src="asset/vieri.jpg" alt="Vieri">
+                        <p>Vieri Kurniawan</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="asset/brian.jpg" alt="Brian">
+                        <p>Brian Buya Supendi</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <div class="contact-section">
+            <div class="contact-info">
+                <h3>Hubungi Kami</h3>
+            </div>
+            <div class="contact-content">
+                <img src="asset/whatsapp.png" alt="WhatsApp">
+                <p>0812-3456-7890</p>
+            </div>
+            <div class="contact-content">
+                <img src="asset/instagram.png" alt="Instagram">
+                <p>dapoer_santai</p>
+            </div>
+            <div class="contact-content">
+                <img src="asset/gmail.png" alt="Gmail">
+                <p>dapoersantai@gmail.com</p>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p> &copy 2024 Dapoer Santai - All Rights Reserved</p>
+    </footer>
+
+    <script src="js/chart.js"></script>
+</body>
+</html>

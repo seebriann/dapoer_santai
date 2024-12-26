@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Resep - Dapoer Santai</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="asset/logo2.png" alt="Dapoer Santai Logo" class="logo-image"></a>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Masak santai apa hari ini?">
+            <ul id="results"></ul> <!-- Tempat untuk hasil pencarian -->
+            <span class="search-icon">&#128269;</span>
+            <script src="js/search.js"></script> <!-- Pastikan ini dipanggil -->
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="resep.html" class="active">Resep</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section id="recipe-detail" class="recipe-detail">
+            <h2 id="recipe-name"></h2>
+            <img id="recipe-image">
+            <!-- Tombol Like -->
+            <div class="like-container">
+                <span id="like-heart" class="heart-icon">&#9829;</span>
+                <span id="like-count">0</span>suka
+            </div>
+
+            <div class="recipe-content">
+                <div class="ingredients">
+                    <h3>Bahan-bahan :</h3>
+                    <ul id="ingredients-list"></ul>
+
+                    <br>
+                    <h3>Bahan bumbu :</h3>
+                    <ul id="spices-list"></ul>
+
+                    <br>
+                    <h3>Bahan pelengkap :</h3>
+                    <ul id="garnishes-list"></ul>
+                </div>
+
+                <div class="steps">
+                    <h3>Langkah-langkah:</h3>
+                    <ol id="steps-list"></ol>
+                </div>
+            </div>
+
+            <h3>Video Tutorial</h3>
+            <div class="video-tutorial">
+                <iframe id="video-tutorial" width="560" height="315" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div> 
+        </section>
+
+        <!-- Review Section-->
+        <section class="review-section">
+            <div class="review-container">
+                <h3>Berikan Ulasan Anda</h3>
+                <!-- Input Nama -->
+                <div class="name-input-container">
+                    <label for="name-input">Nama:</label>
+                    <input type="text" id="name-input" placeholder="Masukkan nama Anda" required>
+                </div>
+
+                <p class="rating-label">Rating dan komentar:</p>
+                <div id="star-container" class="star-rating">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                </div>
+            
+                <!-- Form untuk komentar -->
+                <div class="comment-form">
+                    <textarea id="comment-input" placeholder="Tulis komentar Anda di sini..." rows="4"></textarea>
+                    <div id="error-message" style="color: red; margin-top: 5px; display: none;"></div>
+                    <button id="submit-comment">Kirim Ulasan</button>
+                </div>
+            
+                <!-- Daftar komentar -->
+                <h3>Komentar</h3>
+                <ul id="comments-list"></ul>
+                <div id="pagination">
+                    <button id="prev-btn">Previous</button>
+                    <button id="next-btn">Next</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="recipe-list">
+            <h2>Resep Lainnya</h2>
+            <div class="recipe-items" id="other-recipes">
+                <!-- Resep lainnya akan ditambahkan di sini oleh JavaScript -->
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p> &copy 2024 Dapoer Santai - All Rights Reserved</p>
+    </footer>
+
+    <script src="js/script-detail.js"></script>
+</body>
+</html>

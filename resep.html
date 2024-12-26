@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resep - Dapoer Santai</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="asset/logo2.png" alt="Dapoer Santai Logo" class="logo-image"></a>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Masak santai apa hari ini?">
+            <ul id="results"></ul> <!-- Tempat untuk hasil pencarian -->
+            <span class="search-icon">&#128269;</span>
+            <script src="js/search.js"></script> <!-- Pastikan ini dipanggil -->
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="resep.html" class="active">Resep</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Resep Santai, Cita Rasa Istimewa</h2>
+        </section>
+
+        <!-- Recipe List Section -->
+        <section class="recipe-list">
+            <div id="recipe-container" class="recipe-items">
+                <!-- Kartu resep akan dimuat di sini oleh JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p> &copy 2024 Dapoer Santai - All Rights Reserved</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapoer Santai</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <a href="tentang.html"><img src="asset/logo2.png" alt="Dapoer Santai Logo" class="logo-image"></a>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Masak santai apa hari ini?">
+            <ul id="results"></ul> <!-- Tempat untuk hasil pencarian -->
+            <span class="search-icon">&#128269;</span>
+            <script src="js/search.js"></script> <!-- Pastikan ini dipanggil -->
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="resep.html">Resep</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Temukan Kelezatan <br> Masakan Indonesia yang Autentik</h2>
+            <p>Jelajahi berbagai resep tradisional dan modern yang kaya akan rempah dan rasa, 
+                membawa Anda ke dalam perjalanan kuliner yang tak terlupakan.</p>
+        </section>
+
+        <!-- Recipe Gallery Section -->
+        <section class="recipe-gallery">
+            <div class="recipe-grid">
+                <img src="asset/ayam-goreng.jpg" alt="ayam-goreng">
+                <img src="asset/masakan-indonesia.jpg" alt="masakan-indonesia">
+                <img src="asset/nasi-uduk.jpg" alt="nasi-uduk">
+            </div>
+        </section>
+
+        <!-- Recipe List Section -->
+        <section class="recipe-list">
+            <h2>Hidangan Legendaris Khas Nusantara</h2>
+            <div class="recipe-items">
+                <a href="detail-resep.html?name=Rendang">
+                    <div class="recipe-card">
+                        <img src="asset/rendang.jpg" alt="Rendang">
+                        <p>Rendang</p>
+                    </div>
+                </a>
+                <a href="detail-resep.html?name=Sate Buntel Solo">
+                    <div class="recipe-card">
+                        <img src="asset/sate-buntel.jpg" alt="Sate BuntelS">
+                        <p>Sate Buntel Solo</p>
+                    </div>
+                </a>    
+                <a href="detail-resep.html?name=Nasi Goreng">
+                    <div class="recipe-card">
+                        <img src="asset/nasi-goreng.jpg" alt="Nasi Goreng">
+                        <p>Nasi Goreng</p>
+                    </div>
+                </a>                
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p> &copy 2024 Dapoer Santai - All Rights Reserved</p>
+    </footer>
+</body>
+</html>

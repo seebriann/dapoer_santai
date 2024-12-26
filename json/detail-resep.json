@@ -1,0 +1,505 @@
+{
+    "recipes": [
+        {
+            "name": "Nasi Goreng",
+            "image": "asset/nasi-goreng.jpg",
+            "ingredients": {
+                "main": [
+                    { "item": "Nasi putih", "quantity": "300 gr" },
+                    { "item": "Bumbu halus", "quantity": "1 ½ sdm" },
+                    { "item": "Telur ayam", "quantity": "1 butir" },
+                    { "item": "Minyak", "quantity": "1 sdm" },
+                    { "item": "Ayam suwir", "quantity": "45 gr" },
+                    { "item": "Kecap manis", "quantity": "1-2 sdm" },
+                    { "item": "Saus tiram", "quantity": "½ sdm" },
+                    { "item": "Garam", "quantity": "½ sdt" },
+                    { "item": "Kaldu ayam bubuk", "quantity": "½ sdt" },
+                    { "item": "Merica", "quantity": "¼ sdt" },
+                    { "item": "Bakso sapi", "quantity": "2 buah" },
+                    { "item": "Daun bawang", "quantity": "1 batang" },
+                    { "item": "Sawi hijau", "quantity": "20 gr" },
+                    { "item": "Kol", "quantity": "20 gr" }
+                ],
+                "spices": [
+                    { "item": "Bawang merah", "quantity": "5 siung" },
+                    { "item": "Bawang putih", "quantity": "4 siung" },
+                    { "item": "Kemiri", "quantity": "2 butir" },
+                    { "item": "Terasi bubuk", "quantity": "2 sdt" },
+                    { "item": "Cabai merah", "quantity": "2 buah" },
+                    { "item": "Minyak", "quantity": "60 ml" },
+                    { "item": "Air", "quantity": "1 sdm" }
+                ],
+                "garnishes": [
+                    "Kerupuk",
+                    "Bawang merah goreng",
+                    "Timun",
+                    "Tomat merah"
+                ]
+            },
+            "steps": [
+                "Blender semua bahan bumbu halus kemudian tumis hingga wangi dan matang, sisihkan.",
+                "Iris bakso, sawi hijau, daun bawang, dan kol.",
+                "Panaskan sedikit minyak, masukkan telur, aduk rata kemudian masukkan bumbu halus, bakso, dan ayam suwir, tumis hingga wangi.",
+                "Masukkan nasi, garam, kaldu ayam bubuk, merica, saus tiram, dan kecap manis, aduk rata kemudian masukkan kol, daun bawang, dan sawi hijau, masak sesaat.",
+                "Nasi goreng siap disajikan."
+            ],
+            "video_link": "https://www.youtube.com/embed/eco4P6d3Xjo"
+        },
+        {
+            "name": "Rendang",
+            "image": "asset/rendang.jpg",
+            "ingredients": {
+                "main": [
+                    { "item": "Daging sapi sengkel", "quantity": "4 kg" },
+                    { "item": "Daun salam", "quantity": "9 lembar" },
+                    { "item": "Serai, geprek", "quantity": "6 batang" },
+                    { "item": "Daun jeruk", "quantity": "15 lembar" },
+                    { "item": "Gula merah", "quantity": "130 gr" },
+                    { "item": "Santan instan", "quantity": "1,5 liter" },
+                    { "item": "Air", "quantity": "1,5 liter" },
+                    { "item": "Garam", "quantity": "2 sdm" },
+                    { "item": "Kaldu jamur / penyedap", "quantity": "2 sdm" }
+                ],
+                "spices": [
+                    { "item": "Bawang putih", "quantity": "36 siung" },
+                    { "item": "Bawang merah", "quantity": "30 siung" },
+                    { "item": "Cabai merah", "quantity": "350 gr" },
+                    { "item": "Kemiri", "quantity": "30 butir" },
+                    { "item": "Jahe", "quantity": "40 gr" },
+                    { "item": "Lengkuas", "quantity": "60 gr" },
+                    { "item": "Lada putih butir", "quantity": "1 sdm" },
+                    { "item": "Ketumbar", "quantity": "3 sdm" },
+                    { "item": "Minyak", "quantity": "300 ml" },
+                    { "item": "Air", "quantity": "125 ml" }
+                ],
+                "garnishes": [
+                "Nasi putih",
+                "Bawang goreng",
+                "Opor ayam",
+                "Sambal goreng ati",
+                "Ketupat"
+                ]
+            },
+            "steps": [
+                "Iris lengkuas dan jahe, masukkan ke dalam blender beserta kemiri, bawang putih, ketumbar, lada putih, dan minyak, blender kemudian tambahkan air, blender hingga halus.",
+                "Masukkan bumbu ke dalam wajan lalu di dalam blender yang sama masukkan cabai merah, bawang merah, minyak, dan air, haluskan kemudian tuang ke dalam wajan.",
+                "Masak bumbu halus hingga wangi di api kecil kemudian potong-potong daging, sisihkan.",
+                "Masukkan serai, daun salam, dan daun jeruk, masak di api sedang hingga wangi dan matang.",
+                "Masukkan air, santan, daging, gula merah, garam, dan kaldu jamur, masak di api besar hingga mendidih lalu kecilkan api lanjut masak hingga empuk sekitar 2-3 jam."
+            ],
+            "video_link": "https://www.youtube.com/embed/fEpt5JX7nQc"
+        },
+        {
+            "name": "Bakmi Goreng Jawa",
+            "image": "asset/bakmi-goreng.jpg",
+            "ingredients": {
+                "main": [
+                    { "item": "Mie basah", "quantity": "150 gr" },
+                    { "item": "Caisim", "quantity": "3 batang" },
+                    { "item": "Kol", "quantity": "3 lembar" },
+                    { "item": "Daun bawang", "quantity": "1 batang" },
+                    { "item": "Seledri", "quantity": "1 batang" },
+                    { "item": "Cabai rawit", "quantity": "5 buah" },
+                    { "item": "Bakso sapi", "quantity": "3 buah" },
+                    { "item": "Telur", "quantity": "2 butir" }
+                ],
+                "spices": [
+                    { "item": "Bawang putih", "quantity": "3 siung" },
+                    { "item": "Bawang merah", "quantity": "3 siung" },
+                    { "item": "Kemiri", "quantity": "1 butir" },
+                    { "item": "Terasi", "quantity": "2 gr" },
+                    { "item": "Kecap manis", "quantity": "2-3 sdm" },
+                    { "item": "Kecap asin", "quantity": "2 sdt" },
+                    { "item": "Saus tiram", "quantity": "1 sdm" },
+                    { "item": "Saus sambal", "quantity": "½ sdm" },
+                    { "item": "Merica", "quantity": "¼ sdt" },
+                    { "item": "Gula", "quantity": "½ sdm" },
+                    { "item": "Penyedap / kaldu bubuk", "quantity": "1 sdt" }
+                ],
+                "garnishes": [
+                    "Bawang merah goreng"
+                ]
+            },
+            "steps": [
+                "Rebus mie hingga matang, bilas dengan air mengalir dan tambahkan sedikit minyak lalu aduk rata dan sisihkan.",
+                "Blender bawang merah, bawang putih, kemiri, terasi, dan sedikit minyak hingga halus.",
+                "Tumis bumbu hingga matang lalu sisihkan ke pinggir wajan.",
+                "Tambahkan sedikit minyak lalu masukkan telur kemudian aduk rata.",
+                "Masukkan bakso dan daun bawang bagian putih kemudian tumis hingga wangi.",
+                "Tambahkan saus sambal, kecap manis, kecap asin, dan saus tiram lalu masukkan mie kemudian aduk rata.",
+                "Bumbui dengan merica, gula, dan penyedap / kaldu bubuk lalu aduk rata dan masak dengan api besar.",
+                "Masukkan sayuran, tambahkan sedikit air jika terlalu kering lalu matikan api.",
+                "Sajikan mie goreng tek-tek dengan taburan bawang merah goreng sebagai pelengkap."
+            ],
+            "video_link": "https://www.youtube.com/embed/6sdlhjRE2u0"
+        },
+        {
+            "name": "Sate Buntel Solo",
+            "image": "asset/sate-buntel.jpg",
+            "ingredients": {
+                "main": [
+                    { "item": "Daging sapi has dalam", "quantity": "500 gr" },
+                    { "item": "Telur ayam", "quantity": "2 butir" },
+                    { "item": "Kecap manis (olesan)", "quantity": "4 sdm" },
+                    { "item": "Margarin cair / minyak sayur (olesan)", "quantity": "1 sdm" }
+                ],
+                "spices": [
+                    { "item": "Bawang merah", "quantity": "10 siung" },
+                    { "item": "Bawang putih", "quantity": "5 siung" },
+                    { "item": "Lengkuas", "quantity": "1 jempol" },
+                    { "item": "Bubuk ketumbar", "quantity": "1 sdt" },
+                    { "item": "Bubuk jinten", "quantity": "1 sdt" },
+                    { "item": "Garam", "quantity": "1 sdt" },
+                    { "item": "Kaldu jamur", "quantity": "2 sdt" },
+                    { "item": "Merica", "quantity": "2 sdt" },
+                    { "item": "Kecap manis", "quantity": "2 sdm" }
+                ],
+                "garnishes": [
+                    "Tusuk sate/sumpit",
+                    "Sambal kecap"
+                ]
+            },
+            "steps": [
+                "Haluskan bahan-bahan bumbu halus, tambahkan minyak agar bumbu mudah dihaluskan.",
+                "Tumis bumbu halus, tambahkan bahan bumbu kering. Tumis hingga bumbu matang dan pindahkan ke wadah.",
+                "Tambahkan kecap manis ke dalam tumisan bumbu yang sudah matang.",
+                "Haluskan daging, tambahkan bumbu halus dan telur.",
+                "Balutkan adonan daging ke sumpit.",
+                "Sate dapat langsung dibakar/dipanggang. Jika ingin dijadikan frozen food, sate dapat dikukus dan disimpan ke dalam freezer.",
+                "Saat membakar/memanggang, oleskan bumbu oles.",
+                "Untuk membuat sambal kecap, potong-potong bawang merah, tomat, dan cabe rawit, tuangkan kecap manis dan perasan jeruk nipis.",
+                "Sajikan sate buntel dengan sambal kecap dan potongan jeruk nipis."
+            ],
+            "video_link": "https://www.youtube.com/embed/tEuAUgad_Jk"
+        },
+        {
+            "name": "Ketoprak",
+            "image": "asset/ketoprak.jpg",
+            "ingredients": {
+                "main": [
+                    { "item": "Tahu putih", "quantity": "250 gr" },
+                    { "item": "Telur", "quantity": "2 butir" },
+                    { "item": "Timun", "quantity": "50 gr" },
+                    { "item": "Tauge", "quantity": "100 gr" },
+                    { "item": "Bihun", "quantity": "100 gr" }
+                ],
+                "spices": [
+                    { "item": "Kacang tanah", "quantity": "150 gr" },
+                    { "item": "Bawang merah", "quantity": "35 gr" },
+                    { "item": "Bawang putih", "quantity": "40 gr" },
+                    { "item": "Cabai merah besar", "quantity": "20 gr" },
+                    { "item": "Cabai merah keriting", "quantity": "25 gr" },
+                    { "item": "Air panas", "quantity": "600 ml" },
+                    { "item": "Gula merah", "quantity": "25 gr" },
+                    { "item": "Garam", "quantity": "1 ¼ sdt" },
+                    { "item": "Kaldu jamur", "quantity": "1 sdm" },
+                    { "item": "Kecap manis", "quantity": "1 sdm" },
+                    { "item": "Merica bubuk", "quantity": "¼ sdt" }
+                ],
+                "garnishes": [
+                    "Kerupuk",
+                    "Telur dadar/ Telur ceplok/ Telur rebus"
+                ]
+            },
+            "steps": [
+                "Potong-potong cabai merah besar, cabai merah keriting, cabai rawit, bawang merah, dan bawang putih.",
+                "Goreng kacang dengan minyak yang cukup banyak hingga setengah matang, kemudian masukkan bahan yang telah dipotong-potong. Masak hingga matang.",
+                "Saring minyaknya, kemudian blender menggunakan sedikit air hingga halus.",
+                "Masak bumbu kacang yang sudah halus, tambahkan gula merah, garam, kaldu jamur, dan merica. Berikan air hingga bumbu encer, aduk hingga matang dan berubah menjadi mengental.",
+                "Berikan sedikit air lagi, kecap manis, dan bawang putih yang sudah dihaluskan. Aduk hingga merata.",
+                "Rebus tauge selama 15-30 detik, lalu tiriskan. Rebus bihun hingga matang, lalu tiriskan.",
+                "Goreng tahu dan telur dadar hingga matang, lalu tiriskan.",
+                "Campurkan semua komponen, dan ketoprak siap disajikan."
+            ],
+            "video_link": "https://www.youtube.com/embed/sIa3XRbKKwQ"
+        },
+        {
+            "name": "Perkedel Kentang",
+            "image": "asset/perkedel.jpg",
+            "ingredients": {
+                "main": [
+                    { "item": "Kentang", "quantity": "500 gr" }
+                ],
+                "spices": [
+                    { "item": "Bawang merah", "quantity": "13 siung" },
+                    { "item": "Bawang putih", "quantity": "7 siung" },
+                    { "item": "Daun seledri", "quantity": "1 batang" },
+                    { "item": "Daun bawang", "quantity": "1 batang" },
+                    { "item": "Daun jeruk (optional)", "quantity": "2 lembar" },
+                    { "item": "Garam", "quantity": "½ sdm" },
+                    { "item": "Kaldu jamur", "quantity": "2 sdt" },
+                    { "item": "Gula", "quantity": "1 sdt" },
+                    { "item": "Merica bubuk", "quantity": "¼ sdt" },
+                    { "item": "Telur", "quantity": "1 butir" },
+                    { "item": "Tepung terigu", "quantity": "1 sdm" }
+                ],
+                "garnishes": [
+                    "Kornet (optional, jika membuat perkedel kentang kornet)"
+                ]
+            },
+            "steps": [
+                "Iris tipis bawang merah dan bawang putih, kemudian goreng keduanya sampai kecoklatan di atas api kecil.",
+                "Kupas dan potong kecil-kecil kentang yang sudah dibersihkan, goreng sampai matang dan haluskan menggunakan chopper atau diulek bersamaan dengan bawang merah dan putih goreng.",
+                "Cincang seledri dan daun bawang.",
+                "Masukkan cincangan daun jeruk ke dalam adonan perkedel, tambahkan garam, kaldu jamur, gula, dan merica bubuk, aduk rata.",
+                "Masukkan satu butir telur, aduk rata.",
+                "Tambahkan tepung terigu agar adonan tidak pecah saat digoreng.",
+                "Bentuk adonan perkedel sesuai selera.",
+                "Goreng perkedel sampai berwarna coklat keemasan, tiriskan.",
+                "Perkedel kentang siap disajikan."
+            ],
+            "video_link": "https://www.youtube.com/embed/w7zEV52niI0"
+        },
+        {
+            "name": "Rawon",
+            "image": "asset/rawon.jpg",
+            "ingredients": {
+                "main": [
+                    { "item": "Daging sapi sengkel", "quantity": "500 gr" },
+                    { "item": "Serai, geprek, potong", "quantity": "2 batang" },
+                    { "item": "Daun salam", "quantity": "2 lembar" },
+                    { "item": "Daun jeruk", "quantity": "5 lembar" },
+                    { "item": "Tomat merah", "quantity": "1 buah" },
+                    { "item": "Air", "quantity": "1.5 liter" },
+                    { "item": "Garam", "quantity": "¾ sdm" },
+                    { "item": "Kaldu bubuk / penyedap", "quantity": "2 sdt" },
+                    { "item": "Gula pasir", "quantity": "1.5 sdm" },
+                    { "item": "Merica", "quantity": "½ sdt" },
+                    { "item": "Daun bawang, potong", "quantity": "1 batang" }
+                ],
+                "spices": [
+                    { "item": "Bawang putih", "quantity": "6 siung" },
+                    { "item": "Bawang merah", "quantity": "10 siung" },
+                    { "item": "Keluak", "quantity": "5 buah" },
+                    { "item": "Kemiri sangrai", "quantity": "4 butir" },
+                    { "item": "Kunyit", "quantity": "3 cm" },
+                    { "item": "Minyak goreng", "quantity": "50 ml" },
+                    { "item": "Air", "quantity": "50 ml" }
+                ],
+                "garnishes": [
+                    "Sambal (cabe rawit, bawang putih, air, garam, gula, kaldu bubuk, minyak)",
+                    "Telur asin",
+                    "Bawang goreng",
+                    "Jeruk nipis",
+                    "Kecambah"
+                ]
+            },
+            "steps": [
+                "Haluskan bawang putih, bawang merah, kemiri, keluak, kunyit, dan minyak kemudian masukkan air, blender kembali hingga halus.",
+                "Tumis bumbu halus di api sedang kecil hingga keluar minyak lalu masukkan serai, daun jeruk, dan daun salam, tumis hingga wangi.",
+                "Masukkan air, masak hingga mendidih lalu pindahkan ke dalam presto.",
+                "Masukkan daging, tomat merah, daun bawang, garam, kaldu bubuk, merica, dan gula pasir, presto selama 60 menit.",
+                "Untuk sambal, masukkan cabai rawit merah dan bawang putih ke dalam food processor, haluskan.",
+                "Panaskan sedikit minyak, tumis cabai rawit sesaat lalu masukkan air, garam, gula pasir, dan kaldu bubuk, masak hingga menyusut, sisihkan.",
+                "Susun rawon di dalam mangkuk, tambahkan telur asin, kecambah, jeruk nipis, sambal, dan bawang goreng.",
+                "Rawon siap disajikan."
+            ],
+            "video_link": "https://www.youtube.com/embed/XYev1tljzUE"
+        },
+        {
+            "name": "Siomay Ayam",
+            "image": "asset/siomay.jpg",
+            "ingredients": {
+                "main": [
+                    { "item": "Ayam filet paha", "quantity": "500 gr" },
+                    { "item": "Labu siam (setelah diperas)", "quantity": "90 gr" },
+                    { "item": "Garam", "quantity": "2 sdt" },
+                    { "item": "Gula pasir", "quantity": "2 sdm" },
+                    { "item": "Kaldu bubuk / MSG", "quantity": "2 sdt" },
+                    { "item": "Merica", "quantity": "½ sdt" },
+                    { "item": "Putih telur", "quantity": "1 butir" },
+                    { "item": "Kecap ikan", "quantity": "2 sdm" },
+                    { "item": "Bawang putih halus", "quantity": "1 sdm" },
+                    { "item": "Daun bawang", "quantity": "3 batang" },
+                    { "item": "Minyak goreng", "quantity": "3 sdm" },
+                    { "item": "Es batu / air es", "quantity": "100-150 ml" },
+                    { "item": "Tepung tapioka", "quantity": "220 gr" },
+                    { "item": "Tepung terigu protein sedang", "quantity": "40 gr" }
+                ],
+                "spices": [
+                    { "item": "Kacang tanah goreng", "quantity": "100 gr" },
+                    { "item": "Bawang putih", "quantity": "5 siung" },
+                    { "item": "Bawang merah", "quantity": "7 siung" },
+                    { "item": "Cabai merah keriting", "quantity": "10 buah" },
+                    { "item": "Kemiri", "quantity": "3 butir" },
+                    { "item": "Cabai rawit", "quantity": "2 buah" },
+                    { "item": "Minyak", "quantity": "80 ml" },
+                    { "item": "Gula merah", "quantity": "80 gr" },
+                    { "item": "Air asam jawa", "quantity": "3 sdm" },
+                    { "item": "Daun jeruk", "quantity": "3 lembar" },
+                    { "item": "Air", "quantity": "550 ml" },
+                    { "item": "Saus sambal", "quantity": "3 sdm" },
+                    { "item": "Tepung beras", "quantity": "1 sdm" },
+                    { "item": "Garam", "quantity": "1 sdt" }
+                ],
+                "garnishes": [
+                    "Jeruk limau"
+                ]
+            },
+            "steps": [
+                "Parut halus labu siam kemudian peras.",
+                "Iris halus daun bawang, panaskan minyak lalu tumis sesaat, sisihkan.",
+                "Di dalam food processor, masukkan setengah paha ayam, bawang putih halus, garam, gula pasir, kaldu bubuk, dan merica hingga halus dan lengket.",
+                "Masukkan sisa ayam, es batu, putih telur, dan kecap ikan, haluskan kembali kemudian pindahkan ke dalam mangkuk.",
+                "Masukkan labu siam parut, daun bawang beserta minyak, tepung terigu, dan tepung tapioka, aduk rata.",
+                "Oles kukusan dengan minyak, bentuk bulat adonan dengan sendok kemudian masukkan ke dalam kukusan.",
+                "Rapikan siomay menggunakan garpu dari samping ke atas lalu kukus selama 20 menit.",
+                "Untuk saus, potong bawang putih dan bawang merah, geprek kemiri, iris cabai rawit, dan cabai merah keriting.",
+                "Panaskan minyak, tumis bawang merah, bawang putih, dan kemiri, masak sesaat lalu tambahkan cabai rawit dan cabai merah keriting.",
+                "Pindahkan ke dalam blender, masukkan kacang dan sedikit air, blender hingga halus kemudian masak kembali.",
+                "Masukkan daun jeruk dan gula merah, aduk rata kemudian tambahkan air, air asam jawa, saus sambal, dan garam, masak hingga mendidih.",
+                "Larutkan tepung beras lalu masukkan ke dalam saus, aduk rata.",
+                "Siomay ayam siap disajikan."
+            ],
+            "video_link": "https://www.youtube.com/embed/3W5IvLTiWuw"
+        },
+        {
+            "name": "Pecel",
+            "image": "asset/pecel-sayur.jpg",
+            "ingredients": {
+                "main": [
+                    { "item": "Kangkung", "quantity": "secukupnya" },
+                    { "item": "Kacang panjang", "quantity": "secukupnya" },
+                    { "item": "Tauge", "quantity": "secukupnya" },
+                    { "item": "Daun bayam", "quantity": "secukupnya" },
+                    { "item": "Wortel", "quantity": "secukupnya" }
+                ],
+                "spices": [
+                    { "item": "Kacang tanah", "quantity": "200 gram, goreng" },
+                    { "item": "Daun jeruk", "quantity": "2 lembar" },
+                    { "item": "Bawang putih", "quantity": "4 siung" },
+                    { "item": "Cabai merah keriting", "quantity": "5 buah, sesuai selera" },
+                    { "item": "Cabai rawit", "quantity": "3 buah, sesuai selera" },
+                    { "item": "Kencur", "quantity": "1 ruas" },
+                    { "item": "Gula merah", "quantity": "2 sendok makan" },
+                    { "item": "Asam jawa", "quantity": "1 sendok makan" },
+                    { "item": "Air matang", "quantity": "500 ml" },
+                    { "item": "Garam", "quantity": "secukupnya" }
+                ],
+                "garnishes": [
+                    "Bawang goreng"
+                ]
+            },
+            "steps": [
+                "Rebus semua sayuran sampai matang dan tiriskan.",
+                "Goreng kacang tanah hingga kecokelatan, lalu tiriskan minyaknya.",
+                "Haluskan kacang tanah bersama daun jeruk, bawang putih, cabai merah, cabai rawit, kencur, dan gula merah.",
+                "Tambahkan asam jawa dan garam, lalu ulek kembali hingga bumbu halus.",
+                "Masukkan air matang sedikit demi sedikit ke dalam bumbu, aduk hingga mencapai kekentalan yang diinginkan.",
+                "Siapkan piring saji, tata sayuran yang sudah direbus di atasnya.",
+                "Siram dengan bumbu kacang pecel sesuai selera.",
+                "Pecel siap disajikan dengan pelengkap seperti kerupuk, tempe, atau tahu goreng."
+            ],
+            "video_link": "https://www.youtube.com/embed/xXTkFt2ojoI"
+        },
+        {
+            "name": "Cilok",
+            "image": "asset/cilok.jpg",
+            "ingredients": {
+                "main": [
+                    { "item": "Tepung tapioka", "quantity": "250 gram" },
+                    { "item": "Tepung terigu", "quantity": "100 gram" },
+                    { "item": "Air panas", "quantity": "250 ml" }
+                ],
+                "spices": [
+                    { "item": "Bawang putih", "quantity": "3 siung, haluskan" },
+                    { "item": "Daun bawang", "quantity": "1 batang, iris halus" },
+                    { "item": "Merica bubuk", "quantity": "1/2 sendok teh" },
+                    { "item": "Kaldu bubuk", "quantity": "1/2 sendok teh, opsional" },
+                    { "item": "Garam", "quantity": "1/2 sendok teh" }
+                ],
+                "garnishes": [
+                    "Saus sambal atau saus kacang",
+                    "Telur Puyuh (optional, untuk isian)"
+                ]
+            },
+            "steps": [
+                "Campurkan tepung terigu, bawang putih halus, daun bawang, merica bubuk, kaldu bubuk, dan garam dalam satu wadah.",
+                "Tuang air panas sedikit demi sedikit ke dalam campuran tepung sambil diaduk hingga rata.",
+                "Masukkan tepung tapioka, uleni adonan sampai kalis dan bisa dibentuk.",
+                "Bentuk adonan menjadi bulatan-bulatan kecil.",
+                "Rebus air dalam panci hingga mendidih, lalu masukkan cilok yang sudah dibentuk.",
+                "Masak cilok hingga mengapung, tanda cilok telah matang, kemudian angkat dan tiriskan.",
+                "Sajikan cilok dengan saus sambal atau saus kacang sesuai selera."
+            ],
+            "video_link": "https://www.youtube.com/embed/gNgs9T_neyU"
+        }, 
+        {
+            "name": "Moaci Semarang",
+            "image": "asset/moaci.jpg",
+            "ingredients": {
+                "main": [
+                    { "item": "Tepung ketan", "quantity": "160 gr" },
+                    { "item": "Tepung tapioka", "quantity": "40 gr" },
+                    { "item": "Gula pasir", "quantity": "80 gr" },
+                    { "item": "Minyak", "quantity": "2 sdt" },
+                    { "item": "Air", "quantity": "280 gr" },
+                    { "item": "Garam", "quantity": "½ sdt" },
+                    { "item": "Perisa pisang ambon", "quantity": "½ sdm" }
+                ],
+                "spices": [
+                    { "item": "Kacang tanah goreng", "quantity": "90 gr, giling" },
+                    { "item": "Gula pasir", "quantity": "35 gr" },
+                    { "item": "Air", "quantity": "50 ml" },
+                    { "item": "Garam", "quantity": "¼ sdt" },
+                    { "item": "Kacang almond panggang", "quantity": "75 gr, giling" },
+                    { "item": "Indomilk Kental Manis Swiss Choco", "quantity": "4 sdm" },
+                    { "item": "Gula pasir", "quantity": "35 gr" },
+                    { "item": "Garam", "quantity": "¼ sdt" }
+                ],
+                "garnishes": [
+                    "Wijen sangrai", 
+                    "Maizena"
+                ]
+            },
+            "steps": [
+                "Untuk isian original, masak air, gula, dan garam hingga mendidih kemudian masukkan kacang giling, masak di api sedang kecil hingga menyatu sambil diaduk, dinginkan.",
+                "Untuk isian cokelat, masukkan kacang almond, garam, gula, dan Indomilk Kental Manis Swiss Choco, masak di api sedang kecil hingga menyatu sambil diaduk, dinginkan.",
+                "Setelah dingin, bentuk bulat masing-masing isian dengan sendok takar ukuran 1 sdt.",
+                "Di dalam wadah, campurkan tepung ketan, tapioka, gula pasir, garam, minyak, perisa pisang ambon, dan air, aduk rata.",
+                "Masukkan ke dalam loyang, tutup dengan aluminium foil lalu kukus selama 30 menit.",
+                "Keluarkan dari cetakan, uleni hingga menyatu kemudian bagi menjadi dua adonan.",
+                "Taburkan maizena, bentuk memanjang lalu potong-potong.",
+                "Pipihkan bagian samping moaci dengan cara dicubit, masukkan isian lalu bulatkan.",
+                "Masukkan ke dalam wijen sangrai, ratakan.",
+                "Moaci Semarang siap disajikan."
+            ],
+            "video_link": "https://www.youtube.com/embed/RkZ6jSsJShk"
+        },
+        {
+            "name": "Klepon",
+            "image": "asset/klepon.jpg",
+            "ingredients": {
+                "main": [
+                    { "item": "Tepung beras ketan", "quantity": "200 gr" },
+                    { "item": "Tepung beras", "quantity": "50 gr" },
+                    { "item": "Air", "quantity": "250 ml" },
+                    { "item": "Gula pasir", "quantity": "30 gr" },
+                    { "item": "Perisa pandan", "quantity": "⅛ sdt" },
+                    { "item": "Pewarna kuning", "quantity": "1 tetes, opsional" },
+                    { "item": "Pewarna merah", "quantity": "1 tetes, opsional" }
+                ],
+                "spices": [
+                    { "item": "Gula merah", "quantity": "150 gr" }
+                ],
+                "garnishes": [
+                    "Kelapa parut",
+                    "Garam",
+                    "Daun pandan"
+                ]
+            },
+            "steps": [
+                "Di dalam mangkuk, campurkan kelapa parut dengan garam, aduk rata. Pindahkan ke dalam loyang tahan panas lalu masukkan daun pandan di atasnya. Kukus selama 15-20 menit. Angkat dan pindahkan ke dalam mangkuk.",
+                "Parut gula merah lalu bentuk bulat kecil kurang lebih 3-4 gram.",
+                "Di dalam wajan, campurkan air, tepung beras, gula pasir, perisa pandan, sedikit pewarna kuning, dan pewarna merah, aduk rata lalu masak hingga mengental.",
+                "Masukkan adonan yang telah dimasak ke dalam tepung beras ketan lalu aduk hingga rata dan menyatu.",
+                "Bentuk memanjang adonan lalu potong-potong kurang lebih 12-15 gram per satu pcs klepon.",
+                "Didihkan air, lalu bentuk klepon seperti mangkuk kemudian isi dengan gula merah, bentuk bulat.",
+                "Rebus klepon di api sedang kecil hingga mengapung dan matang, tiriskan.",
+                "Balurkan klepon ke dalam kelapa parut.",
+                "Klepon siap disajikan."
+            ],
+            "video_link": "https://www.youtube.com/embed/M2asgYKevVU"
+        }                                   
+    ]
+}
